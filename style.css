@@ -1,1 +1,6 @@
 /* Feuille de style de la page « Le poids caché du web » */
+body {
+    color: #ff0000;
+    background-color: rgb(127, 255, 219);
+    line-height: 1,75cm;
+}
