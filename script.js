@@ -44,5 +44,6 @@ const champPages = document.querySelector("#pages-par-jour");
 const resultat = document.querySelector("#resultat");
 
 document.querySelector("#bouton-calculer").addEventListener("click", function () {
+    const nombrePages = Number(champPages.value);
 
 });
