@@ -37,3 +37,5 @@ const salutation = document.querySelector("#salutation");
 } else {
     salutation.textContent = "Bonsoir, bonne lecture !";
 }
+
+const POIDS_PAGE_MO = 2;
