@@ -45,5 +45,6 @@ const resultat = document.querySelector("#resultat");
 
 document.querySelector("#bouton-calculer").addEventListener("click", function () {
     const nombrePages = Number(champPages.value);
+    const poidsAnnuel = Math.round(nombrePages * POIDS_PAGE_MO * 365 / 1000);
 
 });
