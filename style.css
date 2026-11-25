@@ -17,3 +17,13 @@ body {
     background-color: white;
     border-radius: 8px;
 }
+
+
+body.sombre {
+    background-color: #111c1b;
+    color: #e2ebe9;
+}
+
+.sombre h2 {
+    color: #7fd1c3;
+}
