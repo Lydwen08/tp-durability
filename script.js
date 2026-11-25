@@ -5,3 +5,4 @@ bouton.addEventListener("click", function() {
     document.body.classList.toggle("sombre");
 });
 
+const boutonTheme = document.querySelector("#bouton-theme");
