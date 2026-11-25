@@ -6,3 +6,7 @@ bouton.addEventListener("click", function() {
 });
 
 const boutonTheme = document.querySelector("#bouton-theme");
+
+boutonTheme.addEventListener("click", function () {
+
+});
