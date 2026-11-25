@@ -27,3 +27,5 @@ curseur.addEventListener("input", function () {
 });
 
 const heure = new Date().getHours();
+
+const salutation = document.querySelector("#salutation");
