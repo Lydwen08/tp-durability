@@ -39,3 +39,6 @@ const salutation = document.querySelector("#salutation");
 }
 
 const POIDS_PAGE_MO = 2;
+
+const champPages = document.querySelector("#pages-par-jour");
+const resultat = document.querySelector("#resultat");
