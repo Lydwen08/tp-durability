@@ -25,3 +25,5 @@ curseur.addEventListener("input", function () {
     valeurTaille.textContent = curseur.value + " %";
 
 });
+
+const heure = new Date().getHours();
