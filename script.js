@@ -48,3 +48,15 @@ document.querySelector("#bouton-calculer").addEventListener("click", function ()
     const poidsAnnuel = Math.round(nombrePages * POIDS_PAGE_MO * 365 / 1000);
 
 });
+
+let message = "Votre navigation représente environ " + poidsAnnuel + " Go par an.";
+
+if (poidsAnnuel < 10) {
+    message += " C'est relativement peu !";
+} else if (poidsAnnuel < 100) {
+    message += " Cela commence à représenter une quantité importante de données !";
+} else {
+    message += " Votre navigation représente un volume très important de données !";
+}
+
+resultat.textContent = message;
