@@ -29,3 +29,11 @@ curseur.addEventListener("input", function () {
 const heure = new Date().getHours();
 
 const salutation = document.querySelector("#salutation");
+
+ if (heure < 12) {
+    salutation.textContent = "Bonjour, bonne lecture !";
+} else if (heure < 18) {
+    salutation.textContent = "Bon après-midi, bonne lecture !";
+} else {
+    salutation.textContent = "Bonsoir, bonne lecture !";
+}
